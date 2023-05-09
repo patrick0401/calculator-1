@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+.calculator {
+padding: 10px;
+border-radius: 1em;
+height: 780px;
+width: 530px;
+margin: auto;
+background-color: #bbbbbb;
+box-shadow:blue(0, 0, 0, 0.19) 0px 10px 20px, blue(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.display-box {
+font-family: 'arial', sans-serif;
+background-color: rgb(194, 188, 188);
+border: solid rgb(10, 10, 10) 0.5px;
+color: rgb(8, 8, 8);
+border-radius: 5px;
+width: 98%;
+height: 45%;
+}
+
+#btn {
+background-color: rgb(160, 159, 159);
+}
+
+input[type=button] {
+font-family: 'arial', sans-serif;
+background-color: rgb(219, 209, 209);
+color: rgb(8, 8, 8);
+border: solid rgb(179, 178, 178) 0.5px;
+width: 100%;
+border-radius: 5px;
+height: 50%;
+outline: none;
+}
+
+input:active[type=button] {
+background: #fa0707;
+-webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+-moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+box-shadow: inset 0px 0px 5px #c1c1c1;
+}
